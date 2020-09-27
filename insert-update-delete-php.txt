@@ -159,3 +159,6 @@ $query = "DELETE FROM new_record WHERE id=$id";
 $result = mysqli_query($con,$query) or die ( mysqli_error());
 header("Location: view.php"); 
 ?>
+
+
+https://www.allphptricks.com/insert-view-edit-and-delete-record-from-database-using-php-and-mysqli/
